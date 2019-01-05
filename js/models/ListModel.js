@@ -5,7 +5,7 @@ export default {
     return new Promise(res => {
       setTimeout(() => {
         res(this.getMovieList());
-      }, 100);
+      }, 500);
     });
   },
 
