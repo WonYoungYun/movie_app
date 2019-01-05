@@ -13,7 +13,7 @@ export default {
     const date = this.getTodayDate();
     const refinedData = [];
     return fetch(
-      `http://www.kobis.or.kr/kobisopenapi/webservice/rest/boxoffice/searchDailyBoxOfficeList.json?key=${KEY}&targetDt=${date}`
+      `https://www.kobis.or.kr/kobisopenapi/webservice/rest/boxoffice/searchDailyBoxOfficeList.json?key=${KEY}&targetDt=${date}`
     )
       .then(res => {
         return res.json();
