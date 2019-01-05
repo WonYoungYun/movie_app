@@ -1,5 +1,7 @@
-import MainController from './controllers/MainController.js'
+import MainController from "./controllers/MainController.js";
 
-document.addEventListener('DOMContentLoaded', () => {
-    MainController.init()
-})
+("use strict");
+
+document.addEventListener("DOMContentLoaded", () => {
+  MainController.init();
+});
